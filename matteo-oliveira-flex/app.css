@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: rgb(247, 205, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+header h1{
+    font-size: 2em;
+} 
+nav {
+    height: 13vh;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+main section nav h2 {
+    background: orange;
+    font-size: 2em;
+    text-align: center;
+}
+main {
+    height: 77vh;
+    text-align: center;
+    background: green;
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main section h2{
+    margin-bottom: 5px;
+    font-size: 2em;
+    text-align: center;
+    background: green;
+}
+.l2{
+    background: #fff;
+    margin: 0 10px;
+}
+footer{
+    background: blueviolet;
+    text-align: center;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h2{
+    font-size: 2em;
+    text-align: center;
+
+    
+} 
+
+@media (min-width: 374px){
+    header {
+        height: 10vh;
+    }
+    nav{
+        height: 15vh;
+    }
+    article{
+        height: 21vh;
+    }
+    footer{
+        height: 13vh;
+    }
+    .l2{
+        height: 15vh;
+    }
+ 
+}   
+@media (min-width: 1023px){
+    header {
+        height: 10vh;
+    }
+    header h1{
+        font-size: 5em;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    nav{
+        height: 33vh;
+        width: 520px;
+    }
+    main section nav h2{
+            font-size: 5em;
+        }
+    #res1{
+        width: 467px;
+        height: 133px;
+    }
+        main section h2{
+                        font-size: 5em;
+        }
+    article{
+        height: 30vh;
+    }
+    footer{
+        height: 13vh;
+    }
+
+ 
+}   
